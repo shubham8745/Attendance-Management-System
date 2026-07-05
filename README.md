@@ -31,7 +31,7 @@ attendance-system/
 
 ---
 
-## 2. Local Setup (run this first, today)
+## 2. Local Setup (run this first)
 
 ### Prerequisites
 - Node.js 18+
