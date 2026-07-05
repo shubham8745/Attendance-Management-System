@@ -84,7 +84,7 @@ Open `http://localhost:5173`, log in with one of the seeded accounts, and try th
 
 ## 4. Features Implemented
 
-**Must-have (all implemented):**
+
 - ✅ Register/Login with hashed passwords + JWT, RBAC on both frontend routes and backend endpoints
 - ✅ Punch In/Out with live camera selfie (no upload) + geolocation capture
 - ✅ Total working hours + Completed/Incomplete status
@@ -92,16 +92,9 @@ Open `http://localhost:5173`, log in with one of the seeded accounts, and try th
 - ✅ Employee / Manager / Admin dashboards
 - ✅ Manager/Admin selfie viewing + Valid/Invalid marking + remarks
 - ✅ Daily/range attendance report, role-scoped, with selfie/location/hours/status
-
-**Good-to-have:** date-range filters, instant client-side search on every table, clean responsive UI. List endpoints (`/users`, `/attendance/team`, `/attendance/all`) accept `page`/`limit` query params on the backend, but the frontend doesn't currently expose pager controls — it relies on date filters + search to keep result sets small.
-
-**Bonus implemented:** CSV export and print-to-PDF export of reports (same table toolbar); optional geofencing (env-toggle, Haversine-distance check on punch-in) — disabled by default since it needs a real office coordinate.
-
-**Bonus not implemented (documented, not faked):** Socket.IO real-time updates, push/email notifications, dark mode. These were intentionally left out to keep the build correct and well-structured rather than partially wiring up features with no time to test them — happy to add any of them next if useful.
-
 ---
 
-## 5. Deployment (do this after local testing works)
+## 5. Deployment
 
 ### Backend → Render
 1. Push this repo to GitHub.
